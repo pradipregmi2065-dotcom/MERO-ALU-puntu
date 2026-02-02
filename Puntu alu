@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Valentine?</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      color: white;
+    }
+    .card {
+      background: rgba(255,255,255,0.15);
+      padding: 30px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    button {
+      padding: 12px 25px;
+      margin: 10px;
+      font-size: 18px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      background: white;
+      color: #ff4f7b;
+      font-weight: bold;
+    }
+    button:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>💖 Will you be my Valentine? 💖</h1>
+    <button onclick="yes()">Yes 😍</button>
+    <button onclick="yes()">Yes 💘</button>
+  </div>
+
+  <script>
+    function yes() {
+      alert("Yayyy! I knew it 💕🌹");
+    }
+  </script>
+</body>
+</html>
